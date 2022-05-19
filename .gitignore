@@ -29,5 +29,6 @@ bin/
 *.DS_Store
 
 # fabric
-
+src/main/java/io/github/minifabric/example/mixin/TreeTileMixin.java
 run/
+/fabricloader.log
