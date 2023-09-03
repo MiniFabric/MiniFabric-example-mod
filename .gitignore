@@ -32,3 +32,6 @@ bin/
 src/main/java/io/github/minifabric/example/mixin/TreeTileMixin.java
 run/
 /fabricloader.log
+
+mods/
+logs/

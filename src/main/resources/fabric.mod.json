@@ -1,37 +1,37 @@
 {
-  "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+	"schemaVersion": 1,
+	"id": "modid",
+	"version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
-  "contact": {
-    "homepage": "https://minifabric.github.io/",
-    "sources": "https://github.com/MiniFabric/MiniFabric-example-mod"
-  },
+	"name": "Example Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://minifabric.github.io/",
+		"sources": "https://github.com/MiniFabric/MiniFabric-example-mod"
+	},
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "io.github.minifabric.example.ExampleMod"
-    ]
-  },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.minifabric.example.ExampleMod"
+		]
+	},
+	"mixins": [
+		"modid.mixins.json"
+	],
 
-  "depends": {
-    "fabricloader": ">=0.13.0",
-    "minicraftplus": "*",
-    "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+	"depends": {
+		"fabricloader": ">=0.13.0",
+		"minicraftplus": "*",
+		"java": ">=16"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }

@@ -8,7 +8,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(Game.class)
 public class ExampleMixin {
-
 	@Inject(at = @At("HEAD"), method = "main")
 	private static void init(CallbackInfo info) {
 		System.out.println("This line is printed by an example mod mixin!");
